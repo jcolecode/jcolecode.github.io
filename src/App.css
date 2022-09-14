@@ -10,6 +10,10 @@
 body {
   font-family: "Roboto Condensed" sans-serif !important;
 }
+html, body {
+  height: 100vh;
+  width: 100vw;
+  }
 
 /** NAVBAR **/
 nav a.nav-link {
@@ -78,6 +82,7 @@ nav ul li {
 @media(max-width: 468px) {
   .profile-img {
     width: 20rem;
+    margin-bottom: 25px;
   }
 }
 
@@ -117,16 +122,10 @@ nav ul li {
   align-items: center;
 }
 
+
 /** FOOTER **/
 .footer {
   background: var(--primary-lightg);
-}
-
-.footer h1 {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer p {
@@ -134,26 +133,20 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer nav a.nav-link {
   cursor: pointer;
-
-}
-
-.footer nav ul li {
-  text-transform: uppercase;
-  font-weight: 500;
 }
 
 .footer .navbar-nav > li > a {
   color: var(--primary-black) !important;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.footer .navbar-nav {
-  margin-left: 455px;
+.footer .navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
 }

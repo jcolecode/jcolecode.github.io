@@ -10,7 +10,7 @@ const Footer = () => {
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                 <div class="container">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav navbar-center">
                             <li class="nav-item">
                                 <a class="nav-link" target="blank" rel="noopener noreferrer" href="/Resume.pdf"><DescriptionIcon /></a>
                             </li>

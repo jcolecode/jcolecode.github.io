@@ -7,18 +7,18 @@ const Projects = () => {
         <h1 class="py-5">Latest Projects</h1>
             <div class="container">
                 <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col">
                         <div class="card">
-                            <img class="card-img-top" src="../1.jpg" alt="#" />
+                            <img class="card-img-top" src="../7.png" alt="#" />
                             <div class="card-body">
                                 <h5 class="card-title">Website Portfolio</h5>
                                 <p class="card-text">My website designed from the ground up.</p>
-                                <a target="blank" rel="noopener noreferrer" href="www.youtube.com" class="btn btn-secondary">Project</a>
+                                <a href="#" class="btn btn-secondary">Project</a>
                             </div>
                         </div>
                     </div>
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col px-5">
                         <div class="card">
                             <img class="card-img-top" src="../CS50.png" alt="#" />
                             <div class="card-body">
@@ -29,7 +29,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col">
                         <div class="card">
                             <img class="card-img-top" src="../Lilly.png" alt="#" />
                             <div class="card-body">
