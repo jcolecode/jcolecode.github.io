@@ -3,8 +3,8 @@ import Navbar from './Navbar'
 
 const Landing = () => {
   return (
-    <div id="#" className="frontImage">
-      <div className="container">
+    <div id="#" class="frontImage">
+      <div class="container">
         <Navbar />
       </div>
     </div>

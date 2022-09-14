@@ -48,3 +48,29 @@ nav ul li {
   left: 0px;
   width: 100%;
 }
+
+.aboutMain img {
+  height: 35vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutText {
+  width: 650px;
+}
+
+.aboutMain {
+  width: 50%;
+  max-width: 95%;
+  margin-top: 150px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
