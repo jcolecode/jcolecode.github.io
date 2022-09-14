@@ -136,17 +136,24 @@ nav ul li {
   align-items: center;
 }
 
-footer nav a.nav-link {
+.footer nav a.nav-link {
   cursor: pointer;
+
 }
 
-footer nav ul li {
+.footer nav ul li {
   text-transform: uppercase;
   font-weight: 500;
 }
 
-footer .navbar-nav > li > a {
+.footer .navbar-nav > li > a {
   color: var(--primary-black) !important;
-  margin-top: 15px;
-  margin-left: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .navbar-nav {
+  margin-left: 455px;
 }
