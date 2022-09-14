@@ -3,6 +3,8 @@
 :root {
   --primary-white: white;
   --primary-grey: #a9a9a9;
+  --primary-black: black;
+  --primary-lightg: #f4f4f4;
 }
 
 body {
@@ -70,6 +72,7 @@ nav ul li {
   width: 20rem;
   border-radius: 10px;
   padding: .3rem;
+  border: 1px solid var(--primary-black);
 }
 
 @media(max-width: 468px) {
@@ -80,8 +83,8 @@ nav ul li {
 
 .pics-img {
   width: 12rem;
-  border-radius: 10px;
   padding: .3rem;
+  border-top: 1px solid var(--primary-grey);
 }
 
 @media(max-width: 468px) {
@@ -92,5 +95,58 @@ nav ul li {
 
 /** EXPERIENCE **/
 .experience {
-  background-color: black;
+  background: var(--primary-lightg);
+  padding-bottom: 2rem;
+}
+
+.experience h1 {
+  text-align: center;
+  border-bottom: 1px solid var(--primary-grey);
+}
+
+/** PROJECTS **/
+.projects {
+  text-align: start;
+  padding-bottom: 2rem;
+}
+
+.projects h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** FOOTER **/
+.footer {
+  background: var(--primary-lightg);
+}
+
+.footer h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav a.nav-link {
+  cursor: pointer;
+}
+
+footer nav ul li {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+footer .navbar-nav > li > a {
+  color: var(--primary-black) !important;
+  margin-top: 15px;
+  margin-left: 10px;
 }
