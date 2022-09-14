@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const Landing = () => {
   return (
     <div id="#" class="frontImage">
-      <div class="container">
+      <div class="containerLanding">
         <Navbar />
       </div>
     </div>

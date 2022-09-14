@@ -4,9 +4,12 @@
   --primary-white: white;
   --primary-grey: #a9a9a9;
 }
+
 body {
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif !important;
 }
+
+/** NAVBAR **/
 nav a.nav-link {
   cursor: pointer;
 }
@@ -30,6 +33,13 @@ nav ul li {
   margin-top: 15px;
 }
 
+@media(max-width: 468px) {
+  .navbar-toggler {
+    margin-left: 0.8rem;
+  }
+}
+
+/** LANDING **/
 .frontImage {
   background-image: url("./images/landing.jpg");
   height: 100vh;
@@ -42,35 +52,45 @@ nav ul li {
   justify-content: center;
 }
 
-.container {
+.containerLanding {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
 }
 
-.aboutMain img {
-  height: 35vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5px;
+/** ABOUT **/
+.photo-wrap {
   display: flex;
-  position: relative;
-  align-items: center;
   justify-content: center;
-}
-
-.aboutText {
-  width: 650px;
-}
-
-.aboutMain {
-  width: 50%;
-  max-width: 95%;
-  margin-top: 150px;
-  display: flex;
-  position: relative;
   align-items: center;
-  justify-content: space-around;
+}
+
+.profile-img {
+  width: 20rem;
+  border-radius: 10px;
+  padding: .3rem;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 20rem;
+  }
+}
+
+.pics-img {
+  width: 12rem;
+  border-radius: 10px;
+  padding: .3rem;
+}
+
+@media(max-width: 468px) {
+  .pics-img {
+    width: 0rem;
+  }
+}
+
+/** EXPERIENCE **/
+.experience {
+  background-color: black;
 }

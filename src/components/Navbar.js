@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <div class="container">
+        <div class="containerLanding">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -15,7 +15,7 @@ const Navbar = () => {
                         <a class="nav-link" href="#about">About<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Projects</a>
