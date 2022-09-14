@@ -24,7 +24,7 @@ const Projects = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Harvard CS50</h5>
                                 <p class="card-text">Completed Harvard's Intro to Computer Science course where I gained knowledge in C, Python, Flask, SQL, HTML, CSS, JavaScript, Data Structures and Algorithms.</p>
-                                <a target="blank" rel="noopener noreferrer" href="www.youtube.com" class="btn btn-secondary">Project</a>
+                                <a target="blank" rel="noopener noreferrer" href="https://certificates.cs50.io/2cebf8aa-f43d-4b57-a386-9e1f042aebea.pdf?size=letter" class="btn btn-secondary">Project</a>
                             </div>
                         </div>
                     </div>
