@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div class="footer">
                 <div class="d-flex flex-row my-4 ">
-                     <a class="nav-link mx-2" target="blank" rel="noopener noreferrer" href="../Resume.pdf"><DescriptionIcon /></a>
+                     <a class="nav-link mx-2" target="_blank" rel="noopener noreferrer" href="/Resume.pdf"><DescriptionIcon /></a>
                      <a class="nav-link mx-2" target="blank" rel="noopener noreferrer" href="mailto:jacobcole152@gmail.com"><EmailIcon /></a>
                      <a class="nav-link mx-2" target="blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jacob-cole-315399149/"><LinkedInIcon /></a>
                      <a class="nav-link mx-2" target="blank" rel="noopener noreferrer" href="https://github.com/jcolecode"><GitHubIcon /></a>
