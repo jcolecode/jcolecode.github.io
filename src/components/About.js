@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import profile from "./../images/profile.jpg";
+import six from "./../images/6.JPEG";
+import two from "./../images/2.jpg";
+import three from "./../images/3.jpg";
 
 const About = () => {
   return (
@@ -8,7 +12,7 @@ const About = () => {
         <div class="row">
           <div class="col-lg-6 col-xm-12">
             <div class ="photo-wrap">
-            <img class="profile-img" src="../profile.jpg" alt="profile" />  
+            <img class="profile-img" src={profile} alt="profile" />  
             </div>  
           </div>
           <div class="col-lg-6 col-xm-12">
@@ -20,9 +24,9 @@ const About = () => {
               I enjoy lifting, golfing, skiing, wakeboarding, going to the beach, and watching the Chicago Bears!
             </p>
             <div class ="photo-wrap">
-            <img class="pics-img" src="../6.JPEG" alt="6" />  
-            <img class="pics-img" src="../2.jpg" alt="2"/> 
-            <img class="pics-img" src="../3.jpg" alt="3"/> 
+            <img class="pics-img" src={six} alt="six" />  
+            <img class="pics-img" src={two} alt="two"/> 
+            <img class="pics-img" src={three} alt="three"/> 
             </div>
           </div>
         </div>

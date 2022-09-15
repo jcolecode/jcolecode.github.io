@@ -1,4 +1,7 @@
 import React from 'react';
+import seven from "./../images/7.png";
+import CS50 from "./../images/CS50.png";
+import Lilly from "./../images/Lilly.png";
 
 const Projects = () => {
   return (
@@ -10,7 +13,7 @@ const Projects = () => {
       
                 <div class="col-lg-4 mb-3 d-flex align-items-stretch">
                   <div class="card">
-                    <img src="../7.png" class="card-img-top" alt="7" />
+                    <img src={seven} class="card-img-top" alt="seven" />
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Portfolio Website</h5>
                       <p class="card-text mb-4">A React based website designed and built from the ground up.</p>
@@ -21,7 +24,7 @@ const Projects = () => {
                 
                 <div class="col-lg-4 mb-3 d-flex align-items-stretch">
                   <div class="card">
-                    <img src="../CS50.png" class="card-img-top" alt="CS50" />
+                    <img src={CS50} class="card-img-top" alt="CS50" />
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Harvard CS50</h5>
                       <p class="card-text mb-4">Completed Harvard's Intro to Computer Science course where I gained knowledge in C, Python, Flask, SQL, HTML, CSS, JavaScript, Data Structures and Algorithms.</p>
@@ -32,7 +35,7 @@ const Projects = () => {
                 
                 <div class="col-lg-4 mb-3 d-flex align-items-stretch">
                   <div class="card">
-                    <img src="../Lilly.png" class="card-img-top" alt="Lilly" />
+                    <img src={Lilly} class="card-img-top" alt="Lilly" />
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Eli Lilly Augmented Reality</h5>
                       <p class="card-text mb-4">Built an application by leveraging Microsoft PowerApps and Power Automate for Eli Lilly's RealWear HMT-1 and Microsoft HoloLens 2.</p>
