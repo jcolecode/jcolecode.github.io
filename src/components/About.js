@@ -8,7 +8,7 @@ const About = () => {
         <div class="row">
           <div class="col-lg-6 col-xm-12">
             <div class ="photo-wrap">
-            <img class="profile-img" src="../profile.jpg" alt="#" />  
+            <img class="profile-img" src="../profile.jpg" alt="profile" />  
             </div>  
           </div>
           <div class="col-lg-6 col-xm-12">
@@ -20,9 +20,9 @@ const About = () => {
               I enjoy lifting, golfing, skiing, wakeboarding, going to the beach, and watching the Chicago Bears!
             </p>
             <div class ="photo-wrap">
-            <img class="pics-img" src="../6.JPEG" alt="#" />  
-            <img class="pics-img" src="../2.jpg" alt="#"/> 
-            <img class="pics-img" src="../3.jpg" alt="#"/> 
+            <img class="pics-img" src="../6.JPEG" alt="6" />  
+            <img class="pics-img" src="../2.jpg" alt="2"/> 
+            <img class="pics-img" src="../3.jpg" alt="3"/> 
             </div>
           </div>
         </div>
