@@ -11,11 +11,12 @@ const Experience = () => {
           <h5 class="left py-2">July 2022 - Present</h5>
               </div>
                 <ul>
-                    <li>Managed team of Systems Engineers by guiding and approving their HVAC controls drawing, submittal, programming, and front-end graphic</li>
+                    <li>Supervised team of Systems Engineers by guiding and approving their HVAC control drawings, submittals, databases,
+                    and front-end graphics</li>
                     <li>Managed project financial performance ranging from $50,000 to $500,000 above booked margin</li>
-                    <li>Hired and managed electrical subcontractor to perform installation of Siemens material</li>
-                    <li>Communicated design, configuration, operation, and installation requirements to engineers and contractors</li>
-                    <li>Overseen project implementation through on-site tours and checkups</li>
+                    <li>Hired electrical subcontractors to perform installation of Siemens material</li>
+                    <li>Conveyed design, configuration, operation, and installation requirements to engineers and contractors</li>
+                    <li>Organized project execution through on-site meetings and checkups</li>
                 </ul>
 
             <h3 class="left py-1">Johnson Controls - Systems Application Engineer</h3>

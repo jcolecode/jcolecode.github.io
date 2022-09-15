@@ -1,5 +1,5 @@
 ## Jacob Cole's Personal Website
-A React based portfiolio site hosted on GitHub pages.
+A React based portfolio website hosted on GitHub pages.
 
 ### Installation
 
