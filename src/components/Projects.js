@@ -1,5 +1,5 @@
 import React from 'react';
-import seven from URL("./../images/7.png");
+import seven from "./../images/7.png";
 import CS50 from "./../images/CS50.png";
 import Lilly from "./../images/Lilly.png";
 
