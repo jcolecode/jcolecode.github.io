@@ -21,10 +21,10 @@ const Navbar = () => {
                         <a class="nav-link" href="#Projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="blank" rel="noopener noreferrer" href="/Resume.pdf">Resume</a> 
+                        <a class="nav-link" target="blank" rel="noopener noreferrer" href="../Resume.pdf">Resume</a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="blank" rel="noopener noreferrer" href="mailto: jacobcole152@gmail.com">Contact</a>
+                        <a class="nav-link" target="blank" rel="noopener noreferrer" href="mailto:jacobcole152@gmail.com">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jacob-cole-315399149/"><LinkedInIcon /></a>

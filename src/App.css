@@ -18,7 +18,8 @@ nav a.nav-link {
 }
 
 nav ul li {
-  font-weight: 500;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
