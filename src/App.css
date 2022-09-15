@@ -19,8 +19,6 @@ nav a.nav-link {
 
 nav ul li {
   font-weight: 500;
-  text-transform: uppercase;
-  font-family: "Roboto Condensed" sans-serif !important;
 }
 
 .navbar-nav > li > a {
