@@ -38,7 +38,9 @@ const Projects = () => {
                     <img src={Lilly} class="card-img-top" alt="Lilly" />
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Eli Lilly Augmented Reality</h5>
-                      <p class="card-text mb-4">Built an application by leveraging Microsoft PowerApps and Power Automate for Eli Lilly's RealWear HMT-1 and Microsoft HoloLens 2.</p>
+                      <p class="card-text mb-4">Built an application by leveraging Microsoft Power Apps and Power Automate for Eli Lilly's RealWear HMT-1 and Microsoft HoloLens 2.</p>
+                      <a target="blank" rel="noopener noreferrer" href="https://youtu.be/HnnlKHKcs-s" class="btn btn-secondary mt-auto align-self-start">Demo</a>
+                      <a target="blank" rel="noopener noreferrer" href="../Eli-Lilly-Report.pdf" class="btn btn-secondary mt-auto align-self-start">Report</a>
                       <a target="blank" rel="noopener noreferrer" href="https://polytechnic.purdue.edu/capstone-project/91-eli-lilly-and-company" class="btn btn-secondary mt-auto align-self-start">Project</a>
                     </div>
                   </div>

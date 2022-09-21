@@ -129,6 +129,9 @@ nav ul li {
   text-align: center;
 }
 
+.btn {
+  margin-bottom: 10px;
+}
 
 /** FOOTER **/
 .footer {
