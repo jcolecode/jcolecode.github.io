@@ -15,9 +15,9 @@ const Projects = () => {
                   <div class="card">
                     <img src={seven} class="card-img-top" alt="seven" />
                     <div class="card-body d-flex flex-column">
-                      <h5 class="card-title">Portfolio Website</h5>
-                      <p class="card-text mb-4">A React based website designed and built from the ground up.</p>
-                      <a href="#About" class="btn btn-secondary mt-auto align-self-start">Project</a>
+                      <h5 class="card-title">Illinois COVID-19</h5>
+                      <p class="card-text mb-4">A data visualization web application.</p>
+                      <a a target="blank" rel="noopener noreferrer" href="https://illinois-covid19.herokuapp.com/" class="btn btn-secondary mt-auto align-self-start">Project</a>
                     </div>
                   </div>
                 </div>
