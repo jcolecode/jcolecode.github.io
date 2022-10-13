@@ -21,7 +21,7 @@ const Navbar = () => {
                         <a class="nav-link" href="#Projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="blank" rel="noopener noreferrer" href="../Resume.pdf">Resume</a> 
+                        <a class="nav-link" target="blank" rel="noopener noreferrer" href="../Resume2022.pdf">Resume</a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="blank" rel="noopener noreferrer" href="mailto:jacobcole152@gmail.com">Contact</a>
