@@ -19,7 +19,7 @@ const About = () => {
             <h1>Jacob Cole</h1>
             <h4>Programmer, Mechanical Engineer, Purdue Alumn</h4>
             <p>
-              Currently working for Siemens as an Associate Project Manager. I am passionate about learning how things work and enjoy the 
+              Currently working for Enfusion as a Technical Program Manager. I am passionate about learning how things work and enjoy the 
               process of coding new technologies that I can apply to my personal projects. Outside of work and coding,
               I enjoy lifting, golfing, skiing, wakeboarding, going to the beach, and watching the Chicago Bears!
             </p>
