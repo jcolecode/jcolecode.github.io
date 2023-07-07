@@ -12,7 +12,7 @@ const Experience = () => {
               </div>
                 <ul>
                     <li>Led Web and Mobile team using Agile to develop applications by working with internal stakeholders and customers.</li>
-                    <li>Prioritized Product Roadmap with developers, aligning the product vision with market needs and business strategy.</li>
+                    <li>Prioritized Product Roadmap with developers, aligned the product vision with market needs and business strategy.</li>
                     <li>Designed and led development of a Data Warehouse project to help create a holistic view of data across the firm, managed forecasts and metrics reporting in Tableau.</li>
                     <li>Took leadership on companywide projects by ensuring all ideas are understood by developers, executed an infrastructure project to prepare the firm for 10x scale and 99%+ uptime.</li>
                 </ul>
