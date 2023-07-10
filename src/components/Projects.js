@@ -28,7 +28,7 @@ const Projects = () => {
                     <img src={finance} class="card-img-top" alt="finance" />
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Finance</h5>
-                      <p class="card-text mb-4">Full stack web application via which users can "buy" and "sell" stocks.</p>
+                      <p class="card-text mb-4">Full stack web application which users can "buy" and "sell" stocks.</p>
                       <a a target="blank" rel="noopener noreferrer" href="https://github.com/jcolecode/finance" class="btn btn-secondary mt-auto align-self-start">Project</a>
                     </div>
                   </div>
