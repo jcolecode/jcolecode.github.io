@@ -8,7 +8,7 @@ const Experience = () => {
       <div class="container">
         <div class="row">
         <h3 class="left py-1">Enfusion - Technical Program Manager</h3>
-          <h5 class="left py-2">January 2023 - Present</h5>
+          <h5 class="left py-2">January 2023 - July 2023</h5>
               </div>
                 <ul>
                     <li>Led Web and Mobile team using Agile to develop applications by working with internal stakeholders and customers.</li>
