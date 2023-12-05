@@ -17,9 +17,10 @@ const About = () => {
           </div>
           <div class="col-lg-6 col-xm-12">
             <h1>Jacob Cole</h1>
-            <h4>Programmer, Mechanical Engineer, Purdue Alumn</h4>
+            <h4>Software Engineer, Ex-Mechanical Engineer, Purdue Alumn</h4>
             <p>
-              Currently looking for opportunities in the Chicago area. I am passionate about learning how things work and enjoy the 
+              I am a graduate student at Georgia Tech where I am earning a Master's Degree in
+              Computer Science. I am passionate about learning computer science principles and enjoy the 
               process of coding new technologies that I can apply to my personal projects. Outside of work and coding,
               I enjoy lifting, golfing, skiing, wakeboarding, going to the beach, and watching the Chicago Bears!
             </p>
