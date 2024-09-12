@@ -5,20 +5,22 @@ import EmailIcon from '@mui/icons-material/Email';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 function YearCopyright() {
-  return  <p id="copyright-year">Jacob Cole © {new Date().getFullYear()}</p>;
+  return  <p id="copyright-year" class="fs-4">Jacob Cole © {new Date().getFullYear()}</p>;
 }
 
 const Footer = () => {
   return (
-    <div class="footer">
-                <div class="d-flex flex-row my-4 ">
-                     <a href="/Resume 2024.pdf" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><DescriptionIcon /></a>
-                     <a href="mailto:jacobcole152@gmail.com" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><EmailIcon /></a>
-                     <a href="https://www.linkedin.com/in/jacobrcole" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><LinkedInIcon /></a>
-                     <a href="https://github.com/jcolecode" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><GitHubIcon /></a>
-                </div>
-        <YearCopyright />
-    </div>
+    <div className='bg-light p-5'>
+      <div class="footer">
+                  <div class="d-flex flex-row my-4">
+                      <a href="/Jacob_Cole_Resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><DescriptionIcon style={{ fontSize: 60 }} /></a>
+                      <a href="mailto:jacobcole152@gmail.com" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><EmailIcon style={{ fontSize: 60 }} /></a>
+                      <a href="https://www.linkedin.com/in/jacobrcole" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><LinkedInIcon style={{ fontSize: 60 }} /></a>
+                      <a href="https://github.com/jcolecode" target="_blank" rel="noopener noreferrer" class="nav-link mx-2"><GitHubIcon style={{ fontSize: 60 }} /></a>
+                  </div>
+          <YearCopyright />
+      </div>
+    </div> 
   )
 }
 

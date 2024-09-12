@@ -1,0 +1,56 @@
+[
+    {
+        "id":5,
+        "company":"Georgia Tech VIP Program",
+        "position":"Software Engineer @ Smart Stadium",
+        "dates":"August 2024 – Present",
+        "description":[
+            "Developed a chat interface in Swift for an iOS application, including a chat list, message creation, and individual chat screens for 500+ users, resulting in a 25% increase in user engagement.",
+            "Integrated 4 API routes for real-time messaging and friend requests using Firebase, reducing load times by 15%.",
+            "Built a real-time fan-based voting feature using Java Spring Boot, handling 100 requests per second to decide the most valuable player of Georgia Tech football games.",
+            "Enhanced fan survey features, adding best game quarter tracking and resolving submission bugs."
+        ]
+    },
+    {
+        "id":4,
+        "company":"J and J Industrial Service",
+        "position":"Software Engineer Intern",
+        "dates":"June 2024 – August 2024",
+        "description":[
+            "Spearheaded the development of the company’s inaugural website using React and Tailwind.",
+            "Designed backend architecture with Express.js and MongoDB to store 200+ user emails, enabling newsletter subscription tracking.",
+            "Integrated Auth0 for CEO authentication, securing access for email campaigns using Nodemailer."
+        ]
+    },
+    {
+        "id":3,
+        "company":"Enfusion",
+        "position":"Technical Program Manager",
+        "dates":"January 2023 – July 2023",
+        "description":[
+            "Led a team of 14 engineers to develop 2 web applications, aligning the product roadmap with business strategy.",
+            "Designed a data warehouse project for managing forecasts and metrics using Tableau.",
+            "Prepared the firm for 10x scale through infrastructure enhancements, ensuring 99%+ uptime."
+        ]
+    },
+    {
+        "id":2,
+        "company":"Siemens",
+        "position":"Associate Project Manager",
+        "dates":"July 2022 – January 2023",
+        "description":[
+            "Managed a team of 5 engineers to design building automation systems, increasing productivity by 18% through optimized project schedules.",
+            "Supervised project budgets ranging from $50,000 to $500,000."
+        ]
+    },
+    {
+        "id":1,
+        "company":"Johnson Controls",
+        "position":"Systems Application Engineer",
+        "dates":"July 2021 – July 2022",
+        "description":[
+            "Engineered HVAC equipment selections and designs for various projects based on customer requirements.",
+            "Managed a $2.7 million project portfolio within 1 year, boosting project margins by 15%."
+        ]
+    }
+]
